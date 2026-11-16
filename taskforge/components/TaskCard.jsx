@@ -1,11 +1,11 @@
-function Taskcard(props) {
+function Taskcard({task}) {
   return (
     <div className="card">
-      <h3>{props.title}</h3>
-      <p>{props.description}</p>
-      <p>{props.category}</p>
-      <span className={`priority ${props.priority.toLowerCase()}`}>
-        {props.priority}
+      <h3>{task.title}</h3>
+      <p>{task.description}</p>
+      <p>{task.category}</p>
+      <span className={`priority ${task.priority.toLowerCase()}`}>
+        {task.priority}
       </span>
       <br></br>
       <button>Complete</button>

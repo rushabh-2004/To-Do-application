@@ -182,3 +182,19 @@
     border-right-color: var(--border);
   }
 } */
+
+#category {
+  padding: 10px 36px 10px 14px;
+  border: 1px solid #d5dbea;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #20243a;
+  font: inherit;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(32, 36, 58, 0.08);
+}
+
+#category:focus {
+  border-color: #5967c5;
+  outline: 2px solid rgba(89, 103, 197, 0.2);
+}
